@@ -48,11 +48,10 @@ print("{} {} {} {}".format(abs(N),((abs(N)+10)*sgn), ((abs(N)-10)*sgn), (N*10)))
 '''
 
 '''
-# Q1 
+# Q1
 strN = str(pow(eval(input("請輸入一個數字 ")),2))
 if (len(strN)) < 20:
     print(strN.center(20, '-'))
 else:
     print(strN)
 '''
-

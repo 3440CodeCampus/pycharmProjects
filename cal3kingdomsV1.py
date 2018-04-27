@@ -3,6 +3,7 @@ import jieba
 #  ***********     file 要 save in utf-8  format  ********************
 
 txt = open('F:\\MOOC\\3kingdomsHK.txt','r', encoding='utf-8').read()
+print( str(len(txt)) + ' 字 ')
 words = jieba.lcut(txt)
 counts = {}
 for word in words:
